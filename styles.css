@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(blueviolet, greenyellow);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://i.gifer.com/origin/f0/f0bdf628922be5398acdffd143c734c1_w200.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://reactiongifs.me/wp-content/uploads/2018/06/Sexy-eye-roll_deafe.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://c.tenor.com/yL9ngAGX60oAAAAM/genius-very-smart.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("http://24.media.tumblr.com/79ae0fb521ded2e717db4acd3d2c104c/tumblr_mjz7e3ixsh1s46rl6o1_500.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://c.tenor.com/XIer_fPZ3rUAAAAM/cheers-gif-happy-birthday.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
